@@ -1,0 +1,55 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Virtual environments
+venv/
+.env/
+.venv/
+ENV/
+
+# Build & distribution
+build/
+dist/
+pip-wheel-metadata/
+*.whl
+
+# Byte-compiled / optimized / DLL files
+*.so
+
+# -------------------------
+# Pytest
+# -------------------------
+.pytest_cache/
+.cache/
+htmlcov/
+.coverage
+.coverage.*
+*.coverage
+junit.xml
+pytestdebug.log
+
+
+# -------------------------
+# IDE / Editors
+# -------------------------
+
+# PyCharm
+.idea/
+
+# -------------------------
+# Misc
+# -------------------------
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
